@@ -1,4 +1,3 @@
-
 @font-face{
 
     font-family: 'Open Sans';
@@ -34,6 +33,7 @@
     margin: 0;
 }
 
+
 /* Nazarii's styles */
 .newsletter{
     background-color: #202835;
@@ -59,30 +59,6 @@
 
 .orange-text{
     color: #cb4d1f;
-}
-
-.newsletter-form{
-    margin: 39px auto 0;
-    /* width: 444px; */
-}
-
-.newsletter-email{
-    width: 270px;
-    padding: 13px;
-    background-color: transparent;
-    color: #fff;
-    border-radius: 3px;
-}
-
-.newsletter-submit{
-    width: 123px;
-    padding: 15px;
-    background-color: #fb5d14;
-    border: none;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    border-radius: 3px;
 }
 
 .icon-envelope{
@@ -426,4 +402,57 @@ span{
 .pa__area::placeholder{
     font-size: 14px;
     padding: 5px;
+}
+
+/* Bessonov's styles */
+.main{
+    margin: 0 auto;
+    width: 1171px;
+}
+.block{
+    margin: 0 auto;
+    width: 772px;
+}
+.h1{
+    margin: auto;
+    padding-bottom: 34px;
+    font-size: 30px;
+    color: rgba(35, 49, 72, 255);
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    width: 148px;
+}
+.p{
+    margin: auto;
+    padding-bottom: 70px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    color: rgba(151, 164, 190, 255);
+    width: 474px;
+}
+
+.form{
+    margin: auto;
+    width: 772px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    background-color: rgba(245, 246, 250, 1);
+    border: 1px solid white;
+    width: 571px;
+}
+.button{
+    transition-duration: 1s;
+    border: 1px solid #19ebe9;
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    color: rgba(35, 49, 72, 255);
+    background-color: #19ebe9;
+    width: 171px;
+}
+.button:hover{
+    transition: 1s;
+    background-color: #028886;
 }
