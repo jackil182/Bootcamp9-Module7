@@ -1,13 +1,163 @@
 @font-face{
+
     font-family: "MyriadPro-Regular";
     src: url(../fonts/MyriadPro-Regular.ttf);
 }
 
-
-* {
-  margin: 0;
-  padding: 0;
+    font-family: "Questrial";
+    src: url("../fonts/questrial-v7-latin-regular.woff2")
 }
+
+*{
+    margin: 0;
+    padding: 0
+}
+
+/* Nazarii's styles */
+.newsletter{
+    background-color: #202835;
+    text-align: center;
+    padding-bottom: 93px;
+}
+
+.newsletter-title{
+    padding: 91px 0 30px;
+    color: #d5511d;
+    font-family: "Questrial";
+    font-size: 30px;
+    color: rgba(251, 104, 22);
+}
+
+.newsletter-text{
+    color: white;
+    line-height: 32px;
+    font-family: "Questrial";
+    font-size: 25px;
+}
+
+.orange-text{
+    color: #cb4d1f;
+}
+
+.newsletter-form{
+    margin: 39px auto 0;
+    /* width: 444px; */
+}
+
+.newsletter-email{
+    width: 270px;
+    padding: 13px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.newsletter-submit{
+    width: 123px;
+    padding: 15px;
+    background-color: #fb5d14;
+    border: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+/* Dmytro's styles */
+.container--{
+    width: 1170px;
+    margin: 0 auto; 
+    text-align: center;
+}
+.section-form{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 75px 0;
+}
+.section-title,
+.section-desc{
+    width: 15%;
+    margin-bottom: 20px;
+}
+.section-content{
+    width: 65%; 
+    margin-bottom: 80px;
+    text-align: center;
+}
+.section-list{
+    width: 85%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+
+}
+.section-list__item{
+    padding-top: 45px;
+    flex-basis: 190px;
+    text-align: center;
+}
+.section-list__item:first-child{
+    background: url(../img/screen.png) no-repeat center top;
+}
+.section-list__item:nth-child(2){
+    background: url(../img/house.png) no-repeat center top;
+}
+.section-list__item:last-child{
+    background: url(../img/phone.png) no-repeat center top;
+}
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-family: inherit;
+
+}
+.form-input,
+.form-textarea{
+    width: 47%; 
+}
+.form-input input,
+[name="textarea"]{
+    display: block;
+    width: 97.5%;
+    padding: 9px 0 9px 5px;
+}
+.form-input input::placeholder,
+[name="textarea"]::placeholder{
+    display: block;
+    width: 100%;
+    padding: 9px 0;
+    font-family: 'Lato', sans-serif;
+}
+[name="textarea"]{
+    padding-bottom: 130px;
+}
+.form-input input:not(:last-child){
+    margin-bottom:30px ; 
+}
+.form-button{
+    width: 100%;
+    display: flex;
+}
+.form-send{
+    display: inline-block;
+    padding: 10px 60px;
+    color: #fff;
+    background-color: #000;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-left: auto;
+    border: none;
+}
+
+/* Lexa's styles */
 .t-mail {
   display: flex;
   flex-direction: column;
