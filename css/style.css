@@ -1,4 +1,58 @@
+@font-face{
+    font-family: "Questrial";
+    src: url("../fonts/questrial-v7-latin-regular.woff2")
+}
+
 *{
     margin: 0;
     padding: 0
+}
+
+.newsletter{
+    background-color: #202835;
+    text-align: center;
+    padding-bottom: 93px;
+}
+
+.newsletter-title{
+    padding: 91px 0 30px;
+    color: #d5511d;
+    font-family: "Questrial";
+    font-size: 30px;
+    color: rgba(251, 104, 22);
+}
+
+.newsletter-text{
+    color: white;
+    line-height: 32px;
+    font-family: "Questrial";
+    font-size: 25px;
+}
+
+.orange-text{
+    color: #cb4d1f;
+}
+
+.newsletter-form{
+    margin: 39px auto 0;
+    /* width: 444px; */
+}
+
+.newsletter-email{
+    width: 270px;
+    padding: 13px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.newsletter-submit{
+    width: 123px;
+    padding: 15px;
+    background-color: #fb5d14;
+    border: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
 }
