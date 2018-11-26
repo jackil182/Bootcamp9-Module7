@@ -1,7 +1,333 @@
-*{
-    margin: 0;
-    padding: 0
+
+@font-face{
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/open-sans-v15-latin-regular.woff") format("woff");
 }
+@font-face{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/open-sans-v15-latin-600.woff") format("woff");
+}
+@font-face{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway-v12-latin-regular.woff') format('woff');
+}
+
+@font-face{
+    font-family: "MyriadPro-Regular";
+    src: url(../fonts/MyriadPro-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Questrial";
+    src: url("../fonts/questrial-v7-latin-regular.woff2")
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Nazarii's styles */
+.newsletter{
+    background-color: #202835;
+    text-align: center;
+    padding-bottom: 93px;
+    position: relative;
+}
+
+.newsletter-title{
+    padding: 91px 0 30px;
+    color: #d5511d;
+    font-family: "Questrial";
+    font-size: 30px;
+    color: rgba(251, 104, 22);
+}
+
+.newsletter-text{
+    color: white;
+    line-height: 32px;
+    font-family: "Questrial";
+    font-size: 25px;
+}
+
+.orange-text{
+    color: #cb4d1f;
+}
+
+.icon-envelope{
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+}
+
+/* Dmytro's styles */
+.container--{
+    width: 1170px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+/* Lexa's styles */
+.t-mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "MyriadPro-Regular";
+
+}
+.t-h {
+  padding-top: 70px;
+}
+
+.t-text {
+  padding-top: 20px;
+}
+.t-form {
+  padding-bottom: 70px;
+  padding-top: 20px;
+}
+
+[type="text"] {
+    display: block;
+    border-radius: 16px;
+    padding: 6px 17px;
+    outline: none;
+    border: 1px solid grey;
+}
+ form{
+     position: relative;
+ }
+form::before {
+    position: absolute;
+    content: "";
+    right: 9px;
+    top: 24px;
+    width: 23px;
+    height: 23px;
+    background: url(../img/Send_Icon.png) no-repeat center;
+    background-size: 100%;
+}
+
+/* Madison's styles */
+.contactsMDS{
+    padding-top: 108px;
+    padding-bottom: 63px;
+}
+.contacts-titleMDS{
+    font-size: 36px;
+    font-family: 'Raleway';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+}
+.contacts-titleMDS::after{
+    content: "";
+}
+
+.contact-text_pi{
+    font-size: 16px;
+    padding-bottom: 28px;
+}
+.adress-text_pi{
+    vertical-align: middle;
+}
+.name_pi:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    border: 2px solid #f39c12;
+}
+.email_pi:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    border: 2px solid #f39c12;
+}
+.text-area_pi:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    border: 2px solid #f39c12;
+}
+.submit_pi:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    border: 2px solid #f39c12;
+    margin-top: 35px;
+    margin-left: auto;
+    border: none;
+}
+
+/* Pecherskiy's styles */
+.pa__my-block{
+    background-color: #e7e5d0;
+}
+.pa__pecherskiy{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 183px;
+    padding-left: 165px;
+    padding-bottom: 183px;
+}
+.pa__section1{
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.pa__form{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+.pa__contact{
+    width: 240px;
+    margin: 0 0 79px 88px;
+    padding: 28px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    border: 8px solid black;
+    text-transform: uppercase;
+   
+}
+.pa__mid-contact{
+    width: 490px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.pa__info{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.pa__work{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.pa__adress-info{
+    font-size: 16px;
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 122px;
+}
+.pa__title-work{
+    margin-right: 90px;
+
+}
+span{
+    font-weight: bold;
+}
+.pa__submit{
+    width: 370px;
+    border: none;
+    background-color: #9a977a;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.pa__name{
+    padding: 15px 0;
+    border: 2px solid black;
+    background-color: #e7e5d0;
+}
+.pa__email{
+    padding: 15px 0;
+    border: 2px solid black;
+    background-color: #e7e5d0;
+}
+.pa__social{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.fab:hover{
+    color: aqua;
+}
+.pa__area{
+    border: 2px solid black;
+    background-color: #e7e5d0;
+}
+.pa__name::placeholder{
+    font-size: 14px;
+    padding: 5px;
+}
+.pa__email::placeholder{
+    font-size: 14px;
+    padding: 5px;
+}
+.pa__area::placeholder{
+    font-size: 14px;
+    padding: 5px;
+}
+
+/* Bessonov's styles */
+.main{
+    margin: 0 auto;
+    width: 1171px;
+}
+.block{
+    margin: 0 auto;
+    width: 772px;
+}
+.h1{
+    margin: auto;
+    padding-bottom: 34px;
+    font-size: 30px;
+    color: rgba(35, 49, 72, 255);
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    width: 148px;
+}
+.p{
+    margin: auto;
+    padding-bottom: 70px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    color: rgba(151, 164, 190, 255);
+    width: 474px;
+}
+
+.form{
+    margin: auto;
+    width: 772px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    background-color: rgba(245, 246, 250, 1);
+    border: 1px solid white;
+    width: 571px;
+}
+.button{
+    transition-duration: 1s;
+    border: 1px solid #19ebe9;
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    color: rgba(35, 49, 72, 255);
+    background-color: #19ebe9;
+    width: 171px;
+}
+.button:hover{
+    transition: 1s;
+    background-color: #028886;
+}
+
+/* Sasha's styles */
 .header-ashappp{
     background-color:black;
     display: block;
