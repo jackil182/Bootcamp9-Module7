@@ -1,4 +1,112 @@
+@font-face{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/open-sans-v15-latin-regular.woff") format("woff");
+}
+@font-face{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/open-sans-v15-latin-600.woff") format("woff");
+}
+@font-face{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway-v12-latin-regular.woff') format('woff');
+}
 *{
     margin: 0;
     padding: 0
+}
+.contactsMDS{
+    padding-top: 108px;
+    padding-bottom: 63px;
+}
+.contacts-titleMDS{
+    font-size: 36px;
+    font-family: 'Raleway';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+}
+.contacts-titleMDS::after{
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8b38;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+.contacts-pMDS{
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(134, 135, 139, 255);
+    text-align: center;
+    margin-top: 30px; 
+}
+.inputMDS{
+    display: flex;
+    justify-content: space-between;
+    width: 934px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.input-itemsMDS{
+    display: flex;
+    flex-direction: column;
+}
+.i-itemsMDS:not(.unoMDS){
+    margin-top: 29px;
+}
+.i-itemsMDS{
+    padding: 10px 0 10px 13px;
+    width: 435px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.buttonMDS{
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #ff9b51;
+    border: none;
+    padding: 15px 22px;
+    border-radius: 5px;
+    margin-top: 56px;
+}
+.textMDS{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+:required:valid{
+    outline: 2px solid green;
+}
+:required:invalid{
+    outline: 2px solid red;
+}
+.MDS{
+    text-align: center;
+    margin-top: 38px;
+    padding-bottom: 15px;
+    padding-top: 40px;
+    background-color: black;
+    color: #fff;
+}
+.fab, .fas{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
 }
