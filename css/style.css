@@ -29,10 +29,21 @@
     src: url("../fonts/questrial-v7-latin-regular.woff2")
 }
 
+@font-face{
+    font-family: "Yesterday";
+    src:url("../Fonts/yesteryear-v6-latin-regular.woff");
+}
+@font-face{
+    font-family: 'Relaway';
+    src: url('../Fonts/raleway-v12-latin-regular.woff');
+}
+
+
 *{
     padding: 0;
     margin: 0;
 }
+
 
 /* Nazarii's styles */
 .newsletter{
@@ -59,30 +70,6 @@
 
 .orange-text{
     color: #cb4d1f;
-}
-
-.newsletter-form{
-    margin: 39px auto 0;
-    /* width: 444px; */
-}
-
-.newsletter-email{
-    width: 270px;
-    padding: 13px;
-    background-color: transparent;
-    color: #fff;
-    border-radius: 3px;
-}
-
-.newsletter-submit{
-    width: 123px;
-    padding: 15px;
-    background-color: #fb5d14;
-    border: none;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    border-radius: 3px;
 }
 
 .icon-envelope{
@@ -155,139 +142,8 @@ form::before {
 }
 .contacts-titleMDS::after{
     content: "";
-    display: block;
-    width: 64px;
-    height: 2px;
-    background-color: #ff8b38;
-    margin: 0 auto;
-    margin-top: 30px;
-}
-.contacts-pMDS{
-    font-size: 14px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    color: rgba(134, 135, 139, 255);
-    text-align: center;
-    margin-top: 30px; 
-}
-.inputMDS{
-    display: flex;
-    justify-content: space-between;
-    width: 934px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    margin-top: 80px;
-}
-.input-itemsMDS{
-    display: flex;
-    flex-direction: column;
-}
-.i-itemsMDS:not(.unoMDS){
-    margin-top: 29px;
-}
-.i-itemsMDS{
-    padding: 10px 0 10px 13px;
-    width: 435px;
-    border: none;
-    border-bottom: 1px solid gray;
-}
-.buttonMDS{
-    margin: 0 auto;
-    font-family: 'Open Sans';
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #fff;
-    font-style: normal;
-    font-weight: 600;
-    background-color: #ff9b51;
-    border: none;
-    padding: 15px 22px;
-    border-radius: 5px;
-    margin-top: 56px;
-}
-.textMDS{
-    padding-top: 10px;
-    padding-left: 10px;
-}
-:required:valid{
-    outline: 2px solid green;
-}
-:required:invalid{
-    outline: 2px solid red;
-}
-.MDS{
-    text-align: center;
-    margin-top: 38px;
-    padding-bottom: 15px;
-    padding-top: 40px;
-    background-color: black;
-    color: #fff;
-}
-.fab, .fas{
-    font-size: 30px;
-    margin-left: 30px;
-    margin-bottom: 10px;
 }
 
-/* pasevin's styles */
-
-.wrapper_pi{
-    padding-top: 50px;
-    display: flex;
-    width: 1150px;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-
-.form_pi{
-    display: flex;
-    flex-direction: column;
-    color: #d9d9d9;
-}
-.name_pi{
-    transition-duration: 1s;
-    padding: 13px 28px;
-    margin-bottom: 10px;
-    font-size: 15px;
-    border: 2px solid #d9d9d9;
-}
-.email_pi{ 
-    transition-duration: 1s;
-    padding: 13px 28px;
-    margin-bottom: 10px;
-    font-size: 15px;
-    border: 2px solid #d9d9d9;
-}
-.text-area_pi{
-    transition-duration: 1s;
-    height: 125px;
-    margin-bottom: 22px;
-    font-size: 15px;
-    border: 2px solid #d9d9d9;
-    padding: 18px 27px;
-}
-.submit_pi{
-    transition-duration: 1s;
-    text-transform: uppercase;
-    font-size: 15px;
-    width: 130px;
-    height: 38px;
-    border: 2px solid #d9d9d9;
-    background-color: rgba(0, 0, 0, 0)
-}
-.form-wrapper_pi{
-    width: 620px;
-}
-.contact_pi{
-    width: 470px;
-}
-.form-title_pi, .contact-info_pi{
-    padding-bottom: 35px;
-    text-transform: uppercase;
-    font-size: bold;
-    font-weight: 700;
-}
 .contact-text_pi{
     font-size: 16px;
     padding-bottom: 28px;
@@ -426,4 +282,210 @@ span{
 .pa__area::placeholder{
     font-size: 14px;
     padding: 5px;
+}
+
+/* Bessonov's styles */
+.main{
+    margin: 0 auto;
+    width: 1171px;
+}
+.block{
+    margin: 0 auto;
+    width: 772px;
+}
+.h1{
+    margin: auto;
+    padding-bottom: 34px;
+    font-size: 30px;
+    color: rgba(35, 49, 72, 255);
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    width: 148px;
+}
+.p{
+    margin: auto;
+    padding-bottom: 70px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    color: rgba(151, 164, 190, 255);
+    width: 474px;
+}
+
+.form{
+    margin: auto;
+    width: 772px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    background-color: rgba(245, 246, 250, 1);
+    border: 1px solid white;
+    width: 571px;
+}
+.button{
+    transition-duration: 1s;
+    border: 1px solid #19ebe9;
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    color: rgba(35, 49, 72, 255);
+    background-color: #19ebe9;
+    width: 171px;
+}
+.button:hover{
+    transition: 1s;
+    background-color: #028886;
+}
+
+/* Sasha's styles */
+.header-ashappp{
+    background-color:black;
+    display: block;
+}
+.ashappp-section{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 57px 29px 59px 0;
+}
+.ashappp-block1{
+width: 572px;
+color: white;
+background-color: #280e10;
+border: 1px solid white;
+margin-right: 29px;
+}
+.ashappp-block2{
+width: 572px;
+color: white;
+background-color: #280e10;
+border: 1px solid white;
+}
+.title-ashappp1{
+    font-size: 25px;
+padding-top: 94px;
+font-family: 'Montserrat', sans-serif;
+}
+.title-ashappp2{
+padding-top: 94px;
+font-size: 25px;
+font-family: 'Montserrat', sans-serif;
+}
+.title-ashappp1:after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    display: block;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+.text-ashappp{
+    padding: 53px 88px 149px 88px;
+    font-family: 'Crimson Text', serif;
+    font-size: 15px;
+    line-height: 1.7;
+}
+.ashappp-form{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.ashappp-email{
+    font-family: 'Montserrat', sans-serif;
+    width: 400px;
+    margin-top: 20px;
+    background:transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    font-weight: 700; 
+    color: white;
+}
+.ashappp-message{
+    font-family: 'Montserrat', sans-serif;
+    width: 400px;
+    margin-top: 20px;
+    background:transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    margin-top: 50px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    color: white;
+}
+.ashappp-message::placeholder{
+color:white;
+}
+.ashappp-email::placeholder{
+    color:white;
+    }
+.ashappp-button{
+    display: block;
+    border:none;
+    margin-top: 50px;
+    color: #00c7fc;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 430px;
+    font-weight: 700;
+}
+
+/* Roland's styles */
+.full-form{
+    background-color: #4c4d4f;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.block-title{
+    text-align: center;
+    font-family: 'Yesterday';
+    font-size: 56px;
+    color: #fff;
+}
+.block-paragraph{
+    text-align: center;
+    font-family: "Relaway";
+}
+.form-stile{
+    width: 980px;
+    margin: 75px auto; 
+    /* justify-content: space-between; */
+
+}
+.wtf{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.form-slide-box{
+    padding: 10px;
+    width: 300px;
+}
+.form-slide-par{
+
+}
+.option-item{
+    padding: 10px;
+}
+
+.inp-submit{
+    padding: 15px 35px;
+    display: block;
+    margin: 25px auto;
+    border: none;
+    background-color: #be9d7a;
+}
+.select-form{
+    padding: 12px;
+    width: 300px;
+
 }
