@@ -1,3 +1,4 @@
+
 @font-face{
 
     font-family: 'Open Sans';
@@ -96,93 +97,6 @@
     margin: 0 auto; 
     text-align: center;
 }
-.section-form{
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 75px 0;
-}
-.section-title,
-.section-desc{
-    width: 15%;
-    margin-bottom: 20px;
-}
-.section-content{
-    width: 65%; 
-    margin-bottom: 80px;
-    text-align: center;
-}
-.section-list{
-    width: 85%;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 75px;
-
-}
-.section-list__item{
-    padding-top: 45px;
-    flex-basis: 190px;
-    text-align: center;
-}
-.section-list__item:first-child{
-    background: url(../img/screen.png) no-repeat center top;
-}
-.section-list__item:nth-child(2){
-    background: url(../img/house.png) no-repeat center top;
-}
-.section-list__item:last-child{
-    background: url(../img/phone.png) no-repeat center top;
-}
-.form{
-    width: 100%;
-    display: flex;
-    justify-content: space-between; 
-    flex-wrap: wrap;
-    align-items: flex-start;
-    font-family: inherit;
-
-}
-.form-input,
-.form-textarea{
-    width: 47%; 
-}
-.form-input input,
-[name="textarea"]{
-    display: block;
-    width: 97.5%;
-    padding: 9px 0 9px 5px;
-}
-.form-input input::placeholder,
-[name="textarea"]::placeholder{
-    display: block;
-    width: 100%;
-    padding: 9px 0;
-    font-family: 'Lato', sans-serif;
-}
-[name="textarea"]{
-    padding-bottom: 130px;
-}
-.form-input input:not(:last-child){
-    margin-bottom:30px ; 
-}
-.form-button{
-    width: 100%;
-    display: flex;
-}
-.form-send{
-    display: inline-block;
-    padding: 10px 60px;
-    color: #fff;
-    background-color: #000;
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-    margin-top: 35px;
-    margin-left: auto;
-    border: none;
-}
 
 /* Lexa's styles */
 .t-mail {
@@ -247,7 +161,6 @@ form::before {
     background-color: #ff8b38;
     margin: 0 auto;
     margin-top: 30px;
-
 }
 .contacts-pMDS{
     font-size: 14px;
@@ -315,4 +228,93 @@ form::before {
     font-size: 30px;
     margin-left: 30px;
     margin-bottom: 10px;
+}
+
+/* pasevin's styles */
+
+.wrapper_pi{
+    padding-top: 50px;
+    display: flex;
+    width: 1150px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.form_pi{
+    display: flex;
+    flex-direction: column;
+    color: #d9d9d9;
+}
+.name_pi{
+    transition-duration: 1s;
+    padding: 13px 28px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: 2px solid #d9d9d9;
+}
+.email_pi{ 
+    transition-duration: 1s;
+    padding: 13px 28px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: 2px solid #d9d9d9;
+}
+.text-area_pi{
+    transition-duration: 1s;
+    height: 125px;
+    margin-bottom: 22px;
+    font-size: 15px;
+    border: 2px solid #d9d9d9;
+    padding: 18px 27px;
+}
+.submit_pi{
+    transition-duration: 1s;
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 130px;
+    height: 38px;
+    border: 2px solid #d9d9d9;
+    background-color: rgba(0, 0, 0, 0)
+}
+.form-wrapper_pi{
+    width: 620px;
+}
+.contact_pi{
+    width: 470px;
+}
+.form-title_pi, .contact-info_pi{
+    padding-bottom: 35px;
+    text-transform: uppercase;
+    font-size: bold;
+    font-weight: 700;
+}
+.contact-text_pi{
+    font-size: 16px;
+    padding-bottom: 28px;
+}
+.adress-text_pi{
+    vertical-align: middle;
+}
+.name_pi:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    border: 2px solid #f39c12;
+}
+.email_pi:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    border: 2px solid #f39c12;
+}
+.text-area_pi:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    border: 2px solid #f39c12;
+}
+.submit_pi:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    border: 2px solid #f39c12;
+    margin-top: 35px;
+    margin-left: auto;
+    border: none;
 }
