@@ -1,4 +1,64 @@
+@font-face{
+    font-family: "Yesterday";
+    src:url("../Fonts/yesteryear-v6-latin-regular.woff");
+}
+@font-face{
+    font-family: 'Relaway';
+    src: url('../Fonts/raleway-v12-latin-regular.woff');
+}
+
 *{
     margin: 0;
     padding: 0
+}
+
+.full-form{
+    background-color: #4c4d4f;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.block-title{
+    text-align: center;
+    font-family: 'Yesterday';
+    font-size: 56px;
+    color: #fff;
+}
+.block-paragraph{
+    text-align: center;
+    font-family: "Relaway";
+}
+.form-stile{
+    width: 980px;
+    margin: 75px auto; 
+    /* justify-content: space-between; */
+
+}
+.wtf{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.form-slide-box{
+    padding: 10px;
+    width: 300px;
+}
+.form-slide-par{
+
+}
+.option-item{
+    padding: 10px;
+}
+
+.inp-submit{
+    padding: 15px 35px;
+    display: block;
+    margin: 25px auto;
+    border: none;
+    background-color: #be9d7a;
+}
+.select-form{
+    padding: 12px;
+    width: 300px;
+
 }
