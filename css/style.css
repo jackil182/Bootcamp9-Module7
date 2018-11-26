@@ -1,4 +1,9 @@
 @font-face{
+
+    font-family: "MyriadPro-Regular";
+    src: url(../fonts/MyriadPro-Regular.ttf);
+}
+
     font-family: "Questrial";
     src: url("../fonts/questrial-v7-latin-regular.woff2")
 }
@@ -150,5 +155,45 @@
     margin-top: 35px;
     margin-left: auto;
     border: none;
+}
 
+/* Lexa's styles */
+.t-mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "MyriadPro-Regular";
+
+}
+.t-h {
+  padding-top: 70px;
+}
+
+.t-text {
+  padding-top: 20px;
+}
+.t-form {
+  padding-bottom: 70px;
+  padding-top: 20px;
+}
+
+[type="text"] {
+    display: block;
+    border-radius: 16px;
+    padding: 6px 17px;
+    outline: none;
+    border: 1px solid grey;
+}
+ form{
+     position: relative;
+ }
+form::before {
+    position: absolute;
+    content: "";
+    right: 9px;
+    top: 24px;
+    width: 23px;
+    height: 23px;
+    background: url(../img/Send_Icon.png) no-repeat center;
+    background-size: 100%;
 }
