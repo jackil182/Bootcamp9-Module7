@@ -1,7 +1,237 @@
+
+@font-face{
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/open-sans-v15-latin-regular.woff") format("woff");
+}
+@font-face{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/open-sans-v15-latin-600.woff") format("woff");
+}
+@font-face{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway-v12-latin-regular.woff') format('woff');
+}
+
+@font-face{
+    font-family: "MyriadPro-Regular";
+    src: url(../fonts/MyriadPro-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Questrial";
+    src: url("../fonts/questrial-v7-latin-regular.woff2")
+}
+
 *{
     margin: 0;
-    padding: 0;
+    padding: 0
 }
+
+/* Nazarii's styles */
+.newsletter{
+    background-color: #202835;
+    text-align: center;
+    padding-bottom: 93px;
+    position: relative;
+}
+
+.newsletter-title{
+    padding: 91px 0 30px;
+    color: #d5511d;
+    font-family: "Questrial";
+    font-size: 30px;
+    color: rgba(251, 104, 22);
+}
+
+.newsletter-text{
+    color: white;
+    line-height: 32px;
+    font-family: "Questrial";
+    font-size: 25px;
+}
+
+.orange-text{
+    color: #cb4d1f;
+}
+
+.newsletter-form{
+    margin: 39px auto 0;
+    /* width: 444px; */
+}
+
+.newsletter-email{
+    width: 270px;
+    padding: 13px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.newsletter-submit{
+    width: 123px;
+    padding: 15px;
+    background-color: #fb5d14;
+    border: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.icon-envelope{
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+}
+
+/* Dmytro's styles */
+.container--{
+    width: 1170px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+/* Lexa's styles */
+.t-mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "MyriadPro-Regular";
+
+}
+.t-h {
+  padding-top: 70px;
+}
+
+.t-text {
+  padding-top: 20px;
+}
+.t-form {
+  padding-bottom: 70px;
+  padding-top: 20px;
+}
+
+[type="text"] {
+    display: block;
+    border-radius: 16px;
+    padding: 6px 17px;
+    outline: none;
+    border: 1px solid grey;
+}
+ form{
+     position: relative;
+ }
+form::before {
+    position: absolute;
+    content: "";
+    right: 9px;
+    top: 24px;
+    width: 23px;
+    height: 23px;
+    background: url(../img/Send_Icon.png) no-repeat center;
+    background-size: 100%;
+}
+
+/* Madison's styles */
+.contactsMDS{
+    padding-top: 108px;
+    padding-bottom: 63px;
+}
+.contacts-titleMDS{
+    font-size: 36px;
+    font-family: 'Raleway';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+}
+.contacts-titleMDS::after{
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8b38;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.contacts-pMDS{
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(134, 135, 139, 255);
+    text-align: center;
+    margin-top: 30px; 
+}
+.inputMDS{
+    display: flex;
+    justify-content: space-between;
+    width: 934px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.input-itemsMDS{
+    display: flex;
+    flex-direction: column;
+}
+.i-itemsMDS:not(.unoMDS){
+    margin-top: 29px;
+}
+.i-itemsMDS{
+    padding: 10px 0 10px 13px;
+    width: 435px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.buttonMDS{
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #ff9b51;
+    border: none;
+    padding: 15px 22px;
+    border-radius: 5px;
+    margin-top: 56px;
+}
+.textMDS{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+:required:valid{
+    outline: 2px solid green;
+}
+:required:invalid{
+    outline: 2px solid red;
+}
+.MDS{
+    text-align: center;
+    margin-top: 38px;
+    padding-bottom: 15px;
+    padding-top: 40px;
+    background-color: black;
+    color: #fff;
+}
+.fab, .fas{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+/* pasevin's styles */
+
 .wrapper_pi{
     padding-top: 50px;
     display: flex;
@@ -9,6 +239,7 @@
     justify-content: space-between;
     margin: 0 auto;
 }
+
 .form_pi{
     display: flex;
     flex-direction: column;
@@ -83,4 +314,7 @@
     transition-property: all;
     transition-duration: 1s;
     border: 2px solid #f39c12;
+    margin-top: 35px;
+    margin-left: auto;
+    border: none;
 }
